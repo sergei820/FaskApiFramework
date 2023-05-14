@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="/info endpoint tests">
+    <test name="MyTest">
+        <classes>
+            <class name="org.example.api.info.AssetTests"/>
+            <class name="org.example.api.info.CountryCodeTests"/>
+            <class name="org.example.api.info.StatusCodeTests"/>
+        </classes>
+    </test>
+</suite>
